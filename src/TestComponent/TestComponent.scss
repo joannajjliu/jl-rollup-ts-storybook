@@ -1,0 +1,20 @@
+.test-component {
+    background-color: pink;
+    border: 1px solid black;
+    padding: 16px;
+    width: 360px;
+    text-align: center;
+    
+    .heading {
+        font-size: 64px;
+    }
+
+    .randomStyle {
+        color: yellow
+    }
+
+    &.test-component-secondary {
+        background-color: black;
+        color: white;
+    }
+}
