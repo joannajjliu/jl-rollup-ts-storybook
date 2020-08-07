@@ -6,6 +6,16 @@
 
 [typescript, rollup, storybook article](https://blog.harveydelaney.com/creating-your-own-react-component-library/)
 
+## Installation instructions
+
+- git clone this repo: `git clone https://github.com/joannajjliu/jl-rollup-ts-storybook.git`
+- install dependencies: `yarn install`
+- initialize git: `git init`
+- add components into the src folder
+- when ready, compile the library: `yarn build`
+- login to npm if haven't already: `npm login`
+- publish build folder to npm: `npm publish`
+
 ## Use instructions
 
 - run tests: `yarn run test:watch`
@@ -24,13 +34,3 @@
   - Create tests for the component (test these using `yarn run test:watch`): TestComponent.test.tsx
 - If you haven't done so already, make sure to export your component to **src/index.ts**
   - this is how other applications will be able to use our components
-
-## Installation instructions
-
-- git clone this repo: `git clone https://github.com/joannajjliu/jl-rollup-ts-storybook.git`
-- install dependencies: `yarn install`
-- initialize git: `git init`
-- add components into the src folder
-- when ready, compile the library: `yarn build`
-- login to npm if haven't already: `npm login`
-- publish build folder to npm: `npm publish`
