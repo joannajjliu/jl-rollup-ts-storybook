@@ -45,7 +45,8 @@
     "storybook:export": "build-storybook",
     "build-storybook": "build-storybook -c .storybook -o docs",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "generate": "node ./util/create-component"
   },
   "repository": {
     "type": "git",

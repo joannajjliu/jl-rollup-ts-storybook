@@ -29,6 +29,13 @@
 
 ### Creating Components
 
+## Generate components automatically
+
+- run `yarn run generate {component name}`
+- the generated component files will appear in /src/{component name}
+
+## Generate components manually
+
 - Create component folders under the src folder. (ex. TestComponent, Button, Form folders)
 - Inside each component folder - we'll use TestComponent for our example here:
   - Create the component: TestComponent.tsx
