@@ -43,7 +43,7 @@
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
-    "build-storybook": "build-storybook -c .storybook -o .out",
+    "build-storybook": "build-storybook -c .storybook -o docs",
     "test": "jest",
     "test:watch": "jest --watch"
   },
