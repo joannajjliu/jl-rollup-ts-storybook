@@ -16,6 +16,12 @@
 - login to npm if haven't already: `npm login`
 - publish build folder to npm: `npm publish`
 
+## Preview storybook as a static webpage
+
+- run `yarn build-storybook`
+- Storybook static files will appear in /docs folder
+- In this example, the /docs folder is hosted via gh-pages
+
 ## Use instructions
 
 - run tests: `yarn run test:watch`
