@@ -33,6 +33,7 @@
 
 - run `yarn run generate {component name}`
 - the generated component files will appear in /src/{component name}
+- make sure to **export your new component in src/index.ts**
 
 ## Generate components manually
 
